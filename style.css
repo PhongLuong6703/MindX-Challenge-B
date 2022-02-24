@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.ex-cdn.com/EXP/media.tintucvietnam.vn/files/phamthanhhuyen/2021/01/26/xsmn-mau-1-1459.jpg);
+}
+.container {
+    width: 660px;
+    height: 390px;
+    background-color:burlywood;
+    opacity: 95%;
+}
+.luckyNumber {
+    text-align: center;
+    margin: auto;
+    background-color:red;
+    height: 55px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.text_content {
+    margin-left: 18px;
+    color:maroon;
+}
+.number {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 22px;
+    box-shadow: inset;
+    background-color:red;
+    color: aliceblue;
+}
+.errorText {
+    color: red;
+    height: 15px;
+}
+.btn:hover {
+    background-color: coral;
+}
+
+.reward {
+    background-color: red;
+    width: 480px;
+    height: 650px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    font-size: 22px;
+    padding: 0px 20px;
+}
+img {
+    height: 280px;
+}
+.back {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: inset;
+    background-color: coral;
+    color: aliceblue;
+}
+.back:hover {
+    background-color:chocolate;
+}
